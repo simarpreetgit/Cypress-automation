@@ -7,7 +7,11 @@ describe('Test contact Us form via automation store', () => {
     cy.document().should('have.property', 'charset').and('eq', 'UTF-8')
     cy.title().should('include', 'A place to practice your automation skills!')
     cy.url().should('include', '')
-    cy.xpath("//a[contains(@href ,'contact')]").click()
+    cy.xpath("//a[contains(@href ,'contact')]")
+      .click()
+      .then((Textfromcontact) => {
+        cy.log('showing the text:' + Textfromcontact.text())
+      })
     cy.get('#ContactUsFrm_first_name').type('helloo')
     cy.get('#ContactUsFrm_email').type('abc@gmail.com')
     cy.get('#ContactUsFrm_enquiry').type(
