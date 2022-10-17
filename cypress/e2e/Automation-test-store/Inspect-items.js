@@ -7,7 +7,7 @@ describe('Inspect the automation test store using chain commmand ', () => {
       .contains('Skinsheen Bronzer Stick')
       .click()
       .then(function (itemHeaderText) {
-        cy.log('selcted item' + itemHeaderText.text())
+        cy.log('selcted item' + ' ' + itemHeaderText.text())
       })
   })
   it('Click on the first item using index', () => {
@@ -17,7 +17,7 @@ describe('Inspect the automation test store using chain commmand ', () => {
       .eq(0)
       .click()
       .then((itemHeaderText) => {
-        console.log('selected item: ' + itemHeaderText.text())
+        console.log('selected item: ' + ' ' + itemHeaderText.text())
       })
     cy.wait(2000)
     cy.log('Test ends here')
