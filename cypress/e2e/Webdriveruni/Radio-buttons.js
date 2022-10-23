@@ -1,11 +1,14 @@
 /// <reference types = "Cypress" />
 
 describe('Verify checkboxes via webdriver uni', () => {
-  it('Check and validate checkbox', () => {
+  beforeEach(() => {
     cy.visit('http://www.webdriveruniversity.com/')
     cy.get('#dropdown-checkboxes-radiobuttons')
       .invoke('removeAttr', 'target')
       .click({ force: true })
+  })
+
+  it('Check and validate checkbox', () => {
     // using value
     //cy.get('[type="radio"]').check('blue')
     // using first function
@@ -23,11 +26,6 @@ describe('Verify checkboxes via webdriver uni', () => {
   })
 
   it('Validates the states of specific radio buttons', () => {
-    cy.visit('http://www.webdriveruniversity.com/')
-    cy.get('#dropdown-checkboxes-radiobuttons')
-      .invoke('removeAttr', 'target')
-      .click({ force: true })
-
     cy.get('[value="lettuce"]').should('be.enabled')
 
     cy.get('[value="lettuce"]').should('not.be.checked')
