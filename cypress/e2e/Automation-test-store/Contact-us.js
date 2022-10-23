@@ -1,6 +1,10 @@
 /// <reference types="Cypress-xpath" />
 
 describe('Test contact Us form via automation store', () => {
+  before(() => {
+    cy.fixture('userDetails').as('user')
+  })
+
   it('Should be able to submit a succesful submition of contact us', () => {
     cy.visit('https://automationteststore.com')
 
@@ -12,8 +16,11 @@ describe('Test contact Us form via automation store', () => {
       .then((Textfromcontact) => {
         cy.log('showing the text:' + Textfromcontact.text())
       })
-    cy.get('#ContactUsFrm_first_name').type('helloo')
-    cy.get('#ContactUsFrm_email').type('abc@gmail.com')
+    cy.get('@user').then((user) => {
+      cy.get('#ContactUsFrm_first_name').type(user.first_name)
+      cy.get('#ContactUsFrm_email').type(user.email)
+    })
+
     cy.get('#ContactUsFrm_enquiry').type(
       'learning from automation from udemy by gianni',
     )
