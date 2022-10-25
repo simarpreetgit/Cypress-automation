@@ -8,8 +8,7 @@ describe('Test Contact Us form via WebdriverUni', () => {
     })
   })
   beforeEach(() => {
-    cy.visit('http://www.webdriveruniversity.com')
-    cy.get('#contact-us').invoke('removeAttr', 'target').click({ force: true })
+    cy.visit(Cypress.env('webdriver_uni') + '/Contact-Us/contactus.html')
   })
   it('Should be able to submit a successful submission via contact us form', () => {
     //cy.visit("http://www.webdriveruniversity.com/Contact-Us/contactus.html");
@@ -24,9 +23,9 @@ describe('Test Contact Us form via WebdriverUni', () => {
     // cy.get('textarea.feedback-input').type(data.body)
     // cy.get('[type="submit"]').click()
     // cy.get('h1').should('have.text', 'Thank You for your Message!')
-
+    // env variable Cypress.env('first_name')
     cy.webdriverUni_Contact_Sub(
-      data.first_name,
+      Cypress.env('first_name'),
       data.last_name,
       data.email,
       data.body,
@@ -43,7 +42,7 @@ describe('Test Contact Us form via WebdriverUni', () => {
     // cy.get('body').contains('Error: all fields are required')
 
     cy.webdriverUni_Contact_Sub(
-      data.first_name,
+      Cypress.env('first_name'),
       data.last_name,
       ' ',
       data.body,
