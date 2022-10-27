@@ -7,7 +7,7 @@
     "dev": "npx cypress run",
     "dev2": "npx cypress run --headed",
     "dev3": "npx cypress run --headed --browser chrome",
-    "dev4": "npx cypress run --record --key 19365f46-6025-4e3a-8d0b-f54a3a094189",
+    "dev4": "npx cypress run --spec cypress/e2e/Webdriveruni/* --record --key 19365f46-6025-4e3a-8d0b-f54a3a094189",
     "dev5": "npx cypress run --spec cypress/e2e/Webdriveruni/*",
     "juit-m": "npx junit-merge -d cypress/results/junit -o cypress/results/junit/results.xml",
     "delete-jun": "rm -rf cypress/results/junit/results.xml",
