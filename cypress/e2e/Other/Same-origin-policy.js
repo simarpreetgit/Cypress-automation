@@ -6,7 +6,7 @@ describe('Cypress web security', () => {
     cy.visit('https://automationteststore.com/')
   })
 
-  it('Validate vsisiting two different domains via user actions', () => {
+  it.skip('Validate vsisiting two different domains via user actions', () => {
     cy.visit('http://www.webdriveruniversity.com/')
     cy.get('#automation-test-store').invoke('removeAttr', 'target').click()
   })
