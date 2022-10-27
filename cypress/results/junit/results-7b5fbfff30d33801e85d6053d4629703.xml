@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="7.195" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-10-26T15:58:28" tests="0" file="cypress/e2e/Singh-resto/Addtocart.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Iterate over elements" timestamp="2022-10-26T15:58:28" tests="1" time="7.178" failures="1">
+    <testcase name="Iterate over elements log info of all hair care products" time="0.000" classname="log info of all hair care products">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;Cheese Burger&apos; within the selector: &apos;.card-body&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Cheese Burger' within the selector: '.card-body' but never did.
+    at Context.eval (webpack:///./cypress/e2e/Singh-resto/Addtocart.js:17:7)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

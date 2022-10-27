@@ -1,0 +1,295 @@
+<?xml version="1.0"?>
+<testsuites>
+<testsuite name="Root Suite" timestamp="2022-10-26T15:57:26" tests="0" file="cypress/e2e/Automation-test-store/Add-multiple-items-cart.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Adds multiple items to basket" timestamp="2022-10-26T15:57:26" tests="1" time="4.038" failures="0">
+  
+  <testcase name="Adds multiple items to basket Add specific item to basket" time="2.757" classname="Add specific item to basket"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:59:15" tests="0" file="cypress/e2e/Webdriveruni/Mouse-action.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Test mouse actions via webdriver uni" timestamp="2022-10-26T15:59:15" tests="4" time="1.536" failures="0">
+  
+  <testcase name="Test mouse actions via webdriver uni Scroll elemenzs into view" time="0.836" classname="Scroll elemenzs into view"></testcase>
+  
+  <testcase name="Test mouse actions via webdriver uni It should be able to drag and drop a draggable items" time="0.286" classname="It should be able to drag and drop a draggable items"></testcase>
+  
+  <testcase name="Test mouse actions via webdriver uni It should be able to perform double mouse click" time="0.205" classname="It should be able to perform double mouse click"></testcase>
+  
+  <testcase name="Test mouse actions via webdriver uni ir should be able to hold down left mouse click button on a given element" time="0.207" classname="ir should be able to hold down left mouse click button on a given element"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:59:03" tests="0" file="cypress/e2e/Webdriveruni/Date-picker.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Test date picker via web driver uni" timestamp="2022-10-26T15:59:03" tests="1" time="2.063" failures="0">
+  
+  <testcase name="Test date picker via web driver uni Select date from date picker" time="2.047" classname="Select date from date picker"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:59:10" tests="0" file="cypress/e2e/Webdriveruni/Hooks.js" time="0.000" failures="0"></testsuite>
+<testsuite name="hooks" timestamp="2022-10-26T15:59:11" tests="2" time="0.043" failures="0">
+  
+  <testcase name="hooks Example test1" time="0.032" classname="Example test1"></testcase>
+  
+  <testcase name="hooks Example test2" time="0.012" classname="Example test2"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:59:20" tests="0" file="cypress/e2e/Webdriveruni/Traversing-elements.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Traversing DOM elements in Cypress" timestamp="2022-10-26T15:59:20" tests="1" time="1.018" failures="0">
+  
+  <testcase name="Traversing DOM elements in Cypress siblings() To get all sibling DOM elements of elements" time="1.023" classname="siblings() To get all sibling DOM elements of elements"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:59:11" tests="0" file="cypress/e2e/Webdriveruni/Iframe.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Handling Iframes And Models" timestamp="2022-10-26T15:59:11" tests="1" time="1.449" failures="0">
+  
+  <testcase name="Handling Iframes And Models handle webdriver uni iframe and uni" time="1.445" classname="handle webdriver uni iframe and uni"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:59:14" tests="0" file="cypress/e2e/Webdriveruni/Js-alert.js" time="0.000" failures="0"></testsuite>
+<testsuite name="handle js alerts" timestamp="2022-10-26T15:59:14" tests="1" time="1.016" failures="0">
+  
+  <testcase name="handle js alerts Validate js confirm alert box using stub" time="1.017" classname="Validate js confirm alert box using stub"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:57:57" tests="0" file="cypress/e2e/Automation-test-store/Alias-invoke.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Alias and invoke" timestamp="2022-10-26T15:57:57" tests="1" time="3.153" failures="1">
+  
+  <testcase name="Alias and invoke Validate the home page with add to cart" time="0.000" classname="Validate the home page with add to cart">
+    
+    <failure message="expected 626.6 to equal 676.1" type="AssertionError"><![CDATA[AssertionError: expected 626.6 to equal 676.1
+    at Context.eval (webpack:///./cypress/e2e/Automation-test-store/Alias-invoke.js:59:30)
+
+      + expected - actual
+
+      -626.6
+      +676.1]]></failure>
+    
+  </testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:58:48" tests="0" file="cypress/e2e/Webdriveruni/Browser-navigation.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Validate webdriver uni home page link" timestamp="2022-10-26T15:58:48" tests="1" time="2.752" failures="0">
+  
+  <testcase name="Validate webdriver uni home page link Confirm links redirect to correct pages" time="2.755" classname="Confirm links redirect to correct pages"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:57:45" tests="0" file="cypress/e2e/Automation-test-store/Inspect-items.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Inspect the automation test store using chain commmand " timestamp="2022-10-26T15:57:45" tests="2" time="8.103" failures="0">
+  
+  <testcase name="Inspect the automation test store using chain commmand  Click on the first item using text" time="2.506" classname="Click on the first item using text"></testcase>
+  
+  <testcase name="Inspect the automation test store using chain commmand  Click on the first item using index" time="4.562" classname="Click on the first item using index"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:58:54" tests="0" file="cypress/e2e/Webdriveruni/Contact-us.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Test Contact Us form via WebdriverUni" timestamp="2022-10-26T15:58:54" tests="2" time="6.482" failures="0">
+  
+  <testcase name="Test Contact Us form via WebdriverUni Should be able to submit a successful submission via contact us form" time="3.772" classname="Should be able to submit a successful submission via contact us form"></testcase>
+  
+  <testcase name="Test Contact Us form via WebdriverUni Should not be able to submit a successful submission via contact us form as all fields are required" time="2.698" classname="Should not be able to submit a successful submission via contact us form as all fields are required"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:58:17" tests="0" file="cypress/e2e/Automation-test-store/Iterate-over-element.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Iterate over elements" timestamp="2022-10-26T15:58:17" tests="4" time="7.437" failures="0">
+  
+  <testcase name="Iterate over elements log info of all hair care products" time="1.438" classname="log info of all hair care products"></testcase>
+  
+  <testcase name="Iterate over elements add specific product to basket" time="1.694" classname="add specific product to basket"></testcase>
+  
+  <testcase name="Iterate over elements add specific product to basket" time="0.949" classname="add specific product to basket"></testcase>
+  
+  <testcase name="Iterate over elements add specific product to basket" time="2.441" classname="add specific product to basket"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:58:01" tests="0" file="cypress/e2e/Automation-test-store/Variable-cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Verify variables,cypress command and jqery  " timestamp="2022-10-26T15:58:01" tests="1" time="2.702" failures="0">
+  
+  <testcase name="Verify variables,cypress command and jqery   validates of the properties of the contact us page" time="1.704" classname="validates of the properties of the contact us page"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:58:09" tests="0" file="cypress/e2e/Automation-test-store/Inspect-items.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Inspect the automation test store using chain commmand " timestamp="2022-10-26T15:58:09" tests="2" time="6.843" failures="0">
+  
+  <testcase name="Inspect the automation test store using chain commmand  Click on the first item using text" time="2.456" classname="Click on the first item using text"></testcase>
+  
+  <testcase name="Inspect the automation test store using chain commmand  Click on the first item using index" time="2.911" classname="Click on the first item using index"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:57:54" tests="0" file="cypress/e2e/Automation-test-store/Iterate-over-element.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Iterate over elements" timestamp="2022-10-26T15:57:54" tests="4" time="6.638" failures="0">
+  
+  <testcase name="Iterate over elements log info of all hair care products" time="2.237" classname="log info of all hair care products"></testcase>
+  
+  <testcase name="Iterate over elements add specific product to basket" time="1.335" classname="add specific product to basket"></testcase>
+  
+  <testcase name="Iterate over elements add specific product to basket" time="1.055" classname="add specific product to basket"></testcase>
+  
+  <testcase name="Iterate over elements add specific product to basket" time="1.034" classname="add specific product to basket"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:58:28" tests="0" file="cypress/e2e/Singh-resto/Addtocart.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Iterate over elements" timestamp="2022-10-26T15:58:28" tests="1" time="7.178" failures="1">
+  
+  <testcase name="Iterate over elements log info of all hair care products" time="0.000" classname="log info of all hair care products">
+    
+    <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;Cheese Burger&apos; within the selector: &apos;.card-body&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Cheese Burger' within the selector: '.card-body' but never did.
+    at Context.eval (webpack:///./cypress/e2e/Singh-resto/Addtocart.js:17:7)]]></failure>
+    
+  </testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:59:01" tests="0" file="cypress/e2e/Webdriveruni/Data-table.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Hnadling data via web driver uni" timestamp="2022-10-26T15:59:01" tests="1" time="1.043" failures="0">
+  
+  <testcase name="Hnadling data via web driver uni Calculate and assert the age of a given user based on last name" time="1.040" classname="Calculate and assert the age of a given user based on last name"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:59:18" tests="0" file="cypress/e2e/Webdriveruni/Radio-buttons.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Verify checkboxes via webdriver uni" timestamp="2022-10-26T15:59:18" tests="2" time="1.596" failures="0">
+  
+  <testcase name="Verify checkboxes via webdriver uni Check and validate checkbox" time="1.099" classname="Check and validate checkbox"></testcase>
+  
+  <testcase name="Verify checkboxes via webdriver uni Validates the states of specific radio buttons" time="0.494" classname="Validates the states of specific radio buttons"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:59:06" tests="0" file="cypress/e2e/Webdriveruni/Drop-down.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Interact dropdown lists via webdriver uni" timestamp="2022-10-26T15:59:06" tests="1" time="1.542" failures="0">
+  
+  <testcase name="Interact dropdown lists via webdriver uni Select specific values via select drop down list" time="1.528" classname="Select specific values via select drop down list"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:58:25" tests="0" file="cypress/e2e/Automation-test-store/Variable-cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Verify variables,cypress command and jqery  " timestamp="2022-10-26T15:58:25" tests="1" time="1.869" failures="0">
+  
+  <testcase name="Verify variables,cypress command and jqery   validates of the properties of the contact us page" time="0.956" classname="validates of the properties of the contact us page"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:58:45" tests="0" file="cypress/e2e/Webdriveruni/Autocomplete-dropdownlist.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Verify auto complete dropdown list via webdriver uni" timestamp="2022-10-26T15:58:45" tests="1" time="2.034" failures="0">
+  
+  <testcase name="Verify auto complete dropdown list via webdriver uni Select specific product via autocomplete list" time="2.015" classname="Select specific product via autocomplete list"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:59:08" tests="0" file="cypress/e2e/Webdriveruni/File-upload.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Test file upload via web driver uni" timestamp="2022-10-26T15:59:08" tests="2" time="1.218" failures="0">
+  
+  <testcase name="Test file upload via web driver uni Upload a file" time="0.939" classname="Upload a file"></testcase>
+  
+  <testcase name="Test file upload via web driver uni Upload no file" time="0.272" classname="Upload no file"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:57:31" tests="0" file="cypress/e2e/Automation-test-store/Alias-invoke.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Alias and invoke" timestamp="2022-10-26T15:57:31" tests="1" time="4.954" failures="1">
+  
+  <testcase name="Alias and invoke Validate the home page with add to cart" time="0.000" classname="Validate the home page with add to cart">
+    
+    <failure message="expected 626.6 to equal 676.1" type="AssertionError"><![CDATA[AssertionError: expected 626.6 to equal 676.1
+    at Context.eval (webpack:///./cypress/e2e/Automation-test-store/Alias-invoke.js:59:30)
+
+      + expected - actual
+
+      -626.6
+      +676.1]]></failure>
+    
+  </testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:58:51" tests="0" file="cypress/e2e/Webdriveruni/Checkboxes.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Verify checkboxes via webdriver uni" timestamp="2022-10-26T15:58:51" tests="3" time="1.706" failures="0">
+  
+  <testcase name="Verify checkboxes via webdriver uni Check and validate checkbox" time="1.030" classname="Check and validate checkbox"></testcase>
+  
+  <testcase name="Verify checkboxes via webdriver uni validate Check and uncheck checkbox" time="0.274" classname="validate Check and uncheck checkbox"></testcase>
+  
+  <testcase name="Verify checkboxes via webdriver uni Check Mulitiple checkboxs" time="0.385" classname="Check Mulitiple checkboxs"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:58:36" tests="0" file="cypress/e2e/Singh-resto/Tablebooking.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Test contact Us form via Wbdriver uni" timestamp="2022-10-26T15:58:36" tests="1" time="8.399" failures="1">
+  
+  <testcase name="Test contact Us form via Wbdriver uni Should be able to submit a succesful submition of tablebooking " time="0.000" classname="Should be able to submit a succesful submition of tablebooking ">
+    
+    <failure message="Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:
+
+`&lt;button type=&quot;primary&quot; class=&quot;btn btn-primary&quot; style=&quot;width: 200px; color: black;&quot;&gt;Table B...&lt;/button&gt;`
+
+This element `&lt;button.btn.btn-primary&gt;` is not visible because its parent `&lt;div#navbarScroll.navbar-collapse.collapse&gt;` has CSS property: `display: none`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:
+
+`<button type="primary" class="btn btn-primary" style="width: 200px; color: black;">Table B...</button>`
+
+This element `<button.btn.btn-primary>` is not visible because its parent `<div#navbarScroll.navbar-collapse.collapse>` has CSS property: `display: none`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at runVisibilityCheck (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:147452:76)
+    at $Cy.ensureStrictVisibility (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:147468:12)
+    at runAllChecks (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:133371:14)
+    at retryActionability (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:133426:16)
+    at tryCatcher (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:11318:23)
+    at Promise.attempt.Promise.try (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:8592:29)
+    at whenStable (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:152675:65)
+    at <unknown> (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:152105:14)
+    at tryCatcher (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:11318:23)
+    at Promise._settlePromiseFromHandler (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:9253:31)
+    at Promise._settlePromise (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:9310:18)
+    at Promise._settlePromise0 (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:9355:10)
+    at Promise._settlePromises (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:9435:18)
+    at Promise._fulfill (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:9379:18)
+    at <unknown> (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:10993:46)
+From Your Spec Code:
+    at Context.eval (webpack:///./cypress/e2e/Singh-resto/Tablebooking.js:12:34)]]></failure>
+    
+  </testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:57:37" tests="0" file="cypress/e2e/Automation-test-store/Contact-us.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Test contact Us form via automation store" timestamp="2022-10-26T15:57:37" tests="1" time="7.516" failures="0">
+  
+  <testcase name="Test contact Us form via automation store Should be able to submit a succesful submition of contact us" time="6.648" classname="Should be able to submit a succesful submition of contact us"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:58:01" tests="0" file="cypress/e2e/Automation-test-store/Contact-us.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Test contact Us form via automation store" timestamp="2022-10-26T15:58:01" tests="1" time="7.290" failures="0">
+  
+  <testcase name="Test contact Us form via automation store Should be able to submit a succesful submition of contact us" time="6.346" classname="Should be able to submit a succesful submition of contact us"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-10-26T15:57:52" tests="0" file="cypress/e2e/Automation-test-store/Add-multiple-items-cart.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Adds multiple items to basket" timestamp="2022-10-26T15:57:52" tests="1" time="4.007" failures="0">
+  
+  <testcase name="Adds multiple items to basket Add specific item to basket" time="2.793" classname="Add specific item to basket"></testcase>
+  
+</testsuite>
+
+</testsuites>

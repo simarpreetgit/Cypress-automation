@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="8.119" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-10-26T15:57:45" tests="0" file="cypress/e2e/Automation-test-store/Inspect-items.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Inspect the automation test store using chain commmand " timestamp="2022-10-26T15:57:45" tests="2" time="8.103" failures="0">
+    <testcase name="Inspect the automation test store using chain commmand  Click on the first item using text" time="2.506" classname="Click on the first item using text">
+    </testcase>
+    <testcase name="Inspect the automation test store using chain commmand  Click on the first item using index" time="4.562" classname="Click on the first item using index">
+    </testcase>
+  </testsuite>
+</testsuites>

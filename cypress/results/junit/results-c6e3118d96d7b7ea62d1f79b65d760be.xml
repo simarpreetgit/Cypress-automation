@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="8.287" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-10-26T17:36:22" tests="0" file="cypress/e2e/Singh-resto/Tablebooking.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Test contact Us form via Wbdriver uni" timestamp="2022-10-26T17:36:22" tests="1" time="8.270" failures="1">
+    <testcase name="Test contact Us form via Wbdriver uni Should be able to submit a succesful submition of tablebooking " time="0.000" classname="Should be able to submit a succesful submition of tablebooking ">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:
+
+`&lt;button type=&quot;primary&quot; class=&quot;btn btn-primary&quot; style=&quot;width: 200px; color: black;&quot;&gt;Table B...&lt;/button&gt;`
+
+This element `&lt;button.btn.btn-primary&gt;` is not visible because its parent `&lt;div#navbarScroll.navbar-collapse.collapse&gt;` has CSS property: `display: none`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:
+
+`<button type="primary" class="btn btn-primary" style="width: 200px; color: black;">Table B...</button>`
+
+This element `<button.btn.btn-primary>` is not visible because its parent `<div#navbarScroll.navbar-collapse.collapse>` has CSS property: `display: none`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at runVisibilityCheck (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:147452:76)
+    at $Cy.ensureStrictVisibility (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:147468:12)
+    at runAllChecks (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:133371:14)
+    at retryActionability (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:133426:16)
+    at tryCatcher (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:11318:23)
+    at Promise.attempt.Promise.try (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:8592:29)
+    at whenStable (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:152675:65)
+    at <unknown> (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:152105:14)
+    at tryCatcher (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:11318:23)
+    at Promise._settlePromiseFromHandler (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:9253:31)
+    at Promise._settlePromise (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:9310:18)
+    at Promise._settlePromise0 (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:9355:10)
+    at Promise._settlePromises (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:9435:18)
+    at Promise._fulfill (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:9379:18)
+    at <unknown> (https://singh-restro.netlify.app/__cypress/runner/cypress_runner.js:10993:46)
+From Your Spec Code:
+    at Context.eval (webpack:///./cypress/e2e/Singh-resto/Tablebooking.js:12:34)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

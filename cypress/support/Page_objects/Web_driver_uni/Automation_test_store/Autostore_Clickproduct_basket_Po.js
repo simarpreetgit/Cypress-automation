@@ -5,7 +5,7 @@ class Autostore_Clickproduct_basket_Po {
         // debugger
       })
     })
-    cy.get('.block_7').click().debug()
+    cy.get('.block_7').click()
   }
 }
 

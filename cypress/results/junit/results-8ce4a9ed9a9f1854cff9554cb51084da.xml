@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.552" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-10-26T15:59:06" tests="0" file="cypress/e2e/Webdriveruni/Drop-down.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Interact dropdown lists via webdriver uni" timestamp="2022-10-26T15:59:06" tests="1" time="1.542" failures="0">
+    <testcase name="Interact dropdown lists via webdriver uni Select specific values via select drop down list" time="1.528" classname="Select specific values via select drop down list">
+    </testcase>
+  </testsuite>
+</testsuites>

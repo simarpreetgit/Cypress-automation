@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="390.036" tests="3" failures="1" skipped="1">
+  <testsuite name="Root Suite" timestamp="2022-10-26T17:29:43" tests="0" file="cypress/e2e/Other/Same-origin-policy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Cypress web security" timestamp="2022-10-26T17:29:43" tests="3" time="390.029" failures="1">
+    <testcase name="Cypress web security Validate vsisiting two different domains via user actions" time="2.773" classname="Validate vsisiting two different domains via user actions">
+    </testcase>
+    <testcase name="Cypress web security Origin command" time="0.000" classname="Origin command">
+      <failure message="`cy.visit()` failed trying to load:
+
+https://automationteststore.com/
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  &gt; Error: ESOCKETTIMEDOUT
+
+Common situations why this would fail:
+  - you don&apos;t have internet access
+  - you forgot to run / boot your web server
+  - your web server isn&apos;t accessible
+  - you have weird network configuration settings on your computer" type="CypressError"><![CDATA[CypressError: `cy.visit()` failed trying to load:
+
+https://automationteststore.com/
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: ESOCKETTIMEDOUT
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+    at Context.eval (webpack:///./cypress/e2e/Other/Same-origin-policy.js:18:7)
+From Your Spec Code:
+    at Context.eval (webpack:///./cypress/e2e/Other/Same-origin-policy.js:18:7)
+
+From Node.js Internals:
+  Error: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/Users/simarpreetsingh/Library/Caches/Cypress/10.10.0/Cypress.app/Contents/Resources/app/node_modules/@cypress/request/request.js:808:19)
+      at Object.onceWrapper (node:events:641:28)
+      at ClientRequest.emit (node:events:527:28)
+      at ClientRequest.emit (node:domain:475:12)
+      at TLSSocket.emitRequestTimeout (node:_http_client:771:9)
+      at Object.onceWrapper (node:events:641:28)
+      at TLSSocket.emit (node:events:539:35)
+      at TLSSocket.emit (node:domain:475:12)
+      at TLSSocket.Socket._onTimeout (node:net:516:8)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

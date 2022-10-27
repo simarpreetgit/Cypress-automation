@@ -4,12 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx cypress run",
+    "dev2": "npx cypress run --headed",
+    "dev3": "npx cypress run --headed --browser chrome",
+    "dev4": "npx cypress run --record --key 19365f46-6025-4e3a-8d0b-f54a3a094189",
+    "dev5": "npx cypress run --spec cypress/e2e/Webdriveruni/*",
+    "juit-m": "npx junit-merge -d cypress/results/junit -o cypress/results/junit/results.xml",
+    "delete-jun": "rm -rf cypress/results/junit/results.xml"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^10.10.0",
-    "cypress-xpath": "^2.0.1"
+    "cypress-multi-reporters": "^1.6.1",
+    "cypress-xpath": "^2.0.1",
+    "mocha-junit-reporter": "^2.1.0"
+  },
+  "dependencies": {
+    "npx": "^10.2.2"
   }
 }

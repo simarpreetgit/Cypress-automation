@@ -1,3 +1,5 @@
+import { symlink } from 'fs'
+
 class Contact_Us_Po {
   contactForm_Submission(
     firstName,
@@ -13,6 +15,8 @@ class Contact_Us_Po {
     cy.get('textarea.feedback-input').type(feedback)
     cy.get('[type="submit"]').click()
     cy.get($selector).contains(textTolocate)
+    cy.screenshot()
+    cy.screenshot('Make a contact us form submission')
   }
 }
 

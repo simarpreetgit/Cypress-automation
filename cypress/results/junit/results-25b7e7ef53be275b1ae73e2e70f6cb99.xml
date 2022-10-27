@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.025" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-10-26T15:59:14" tests="0" file="cypress/e2e/Webdriveruni/Js-alert.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="handle js alerts" timestamp="2022-10-26T15:59:14" tests="1" time="1.016" failures="0">
+    <testcase name="handle js alerts Validate js confirm alert box using stub" time="1.017" classname="Validate js confirm alert box using stub">
+    </testcase>
+  </testsuite>
+</testsuites>

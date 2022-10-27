@@ -3,7 +3,9 @@
 describe('Iterate over elements', () => {
   beforeEach(() => {
     cy.visit('https://automationteststore.com/')
-    cy.get("a[href*='product/category&path=']").contains('Hair Care').click()
+    cy.get("a[href*='product/category&path=']")
+      .contains('Hair Care')
+      .click({ force: true })
   })
   it('log info of all hair care products', () => {
     cy.get('.fixed_wrapper .prdocutname').each(($el, index, $list) => {

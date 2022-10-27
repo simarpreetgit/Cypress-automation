@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.045" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-10-26T15:59:20" tests="0" file="cypress/e2e/Webdriveruni/Traversing-elements.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Traversing DOM elements in Cypress" timestamp="2022-10-26T15:59:20" tests="1" time="1.018" failures="0">
+    <testcase name="Traversing DOM elements in Cypress siblings() To get all sibling DOM elements of elements" time="1.023" classname="siblings() To get all sibling DOM elements of elements">
+    </testcase>
+  </testsuite>
+</testsuites>

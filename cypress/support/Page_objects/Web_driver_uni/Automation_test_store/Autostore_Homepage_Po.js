@@ -4,7 +4,9 @@ class Autostore_Homepage_Po {
   }
 
   clickOn_Hair_Care_Link() {
-    cy.get("a[href*='product/category&path=']").contains('Hair Care').click()
+    cy.get("a[href*='product/category&path=']")
+      .contains('Hair Care')
+      .click({ force: true })
   }
 }
 

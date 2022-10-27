@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.567" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-10-26T17:36:34" tests="0" file="cypress/e2e/Webdriveruni/Browser-navigation.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Validate webdriver uni home page link" timestamp="2022-10-26T17:36:34" tests="1" time="2.550" failures="0">
+    <testcase name="Validate webdriver uni home page link Confirm links redirect to correct pages" time="2.554" classname="Confirm links redirect to correct pages">
+    </testcase>
+  </testsuite>
+</testsuites>

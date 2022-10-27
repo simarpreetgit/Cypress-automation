@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.064" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-10-26T17:36:55" tests="0" file="cypress/e2e/Webdriveruni/Hooks.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="hooks" timestamp="2022-10-26T17:36:55" tests="2" time="0.055" failures="0">
+    <testcase name="hooks Example test1" time="0.042" classname="Example test1">
+    </testcase>
+    <testcase name="hooks Example test2" time="0.011" classname="Example test2">
+    </testcase>
+  </testsuite>
+</testsuites>
